@@ -1,0 +1,81 @@
+:root{
+    --black: #2d2f31;
+    --burple: #5022c3;
+    --white: white;
+    --gray: #f7f9fa;
+}
+.text-black{
+    color: var(--black);
+}
+.text-burple{
+    color: var(--burple);
+}
+.text-white{
+    color: var(--white);
+}
+.navbar-brand{
+    width: 8%;
+}
+.bg-gray{
+    background-color: var(--gray);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+@media screen and (min-width:1150px) {
+    header .form-search{
+        width: 400px;
+    }
+}
+@media screen and (min-width:990px) {
+    .categories .row img{
+        width: 225px;
+    }
+}
+.border-btn{
+    border:1px solid black;
+}
+.navbar .btn:hover{
+    border:1px solid black;
+}
+.serviseas .row .card span{
+    text-decoration: line-through;
+}
+.serviseas .tab-pane button:hover{
+    border:1px solid black;
+}
+.goals .row a:hover{
+    color: var(--burple);
+}
+.learns .row .card span{
+    text-decoration: line-through;
+}
+.categories .row img{
+    transition: 0.5s ease;
+}
+.categories .row img:hover{
+    transform: scale(1.1 , 1);
+}
+.text-bold{
+font-weight: bold;
+}
+.Featured .row a:hover{
+    color: var(--burple);
+}
+.fotter .row a{
+    text-decoration: none;
+    color: var(--white);
+}
+.fotter .row a:hover{
+    text-decoration: underline;
+}
+.Udemy-Business button:hover{
+    border: 1px solid black;
+}
+.learns .card:hover{
+    transition: 0.5s ease;
+    transform: translate(0,-10px);
+}
